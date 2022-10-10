@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>Test</title>
-    <link rel="stylesheet" href="/src/client/styles/resets.scss" />
-    <link rel="stylesheet" href="/src/client/styles/base.scss" />
-    <link rel="stylesheet" href="/src/client/styles/header.scss" />
-    <link rel="stylesheet" href="/src/client/styles/form.scss" />
-    <link rel="stylesheet" href="/src/client/styles/footer.scss" />
+    <link rel="stylesheet" type="text/style" href="../styles/resets.scss" />
+    <link rel="stylesheet" type="text/style" href="../styles/base.scss" />
+    <link rel="stylesheet" type="text/style" href="../styles/header.scss" />
+    <link rel="stylesheet" type="text/style" href="../styles/form.scss" />
+    <link rel="stylesheet" type="text/style" href="../styles/footer.scss" />
   </head>
 
   <body>
@@ -35,42 +35,22 @@
           />
         </form>
       </section>
-
-        <main>
-            <section>
-                <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
-                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
-                </form>
-            <section>
-
-            <section>
-                <strong>Form Results:</strong>
-                <div id="results"></div>
-            </section>
-        </main>
-
-        <footer>
-            <p>This is a footer</p>
-        </footer>
-
-        <script>
-            // Check that service workers are supported
-            if ('serviceWorker' in navigator) {
-                // Use the window load event to keep the page load performant
-                window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('/service-worker.js');
-                });
-            }
-        </script>
-    </body>
       <section>
         <strong>Picture of the Day:</strong>
         <div id="results"></div>
       </section>
+      <footer>
+        <p>The Nasa Picture of The Day</p>
+      </footer>
     </main>
-    <footer>
-      <p>The Nasa Picture of The Day</p>
-    </footer>
+    <script>
+      // Check that service workers are supported
+      if ("serviceWorker" in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/service-worker.js");
+        });
+      }
+    </script>
   </body>
 </html>
