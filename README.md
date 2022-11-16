@@ -1,3 +1,5 @@
+![](https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png){width=1in}
+
 # NASA APOD API Picture of the day
 
 in this application you can look at the picture of the day from NASA by simply entering a past date. The picture with the title and the description is already visible. This is my first project with an API and of course it had to be NASA.
