@@ -1,4 +1,4 @@
-![](https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png=100x)
+<div style="float:left;margin:0 10px 10px 0" markdown="1">![NASA Logo](https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png)</div>
 
 # NASA APOD API Picture of the day
 
