@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>Test</title>
+    <title>Nasa Picture of the Day<</title>
     <link rel="stylesheet" type="text/style" href="../styles/resets.scss" />
     <link rel="stylesheet" type="text/style" href="../styles/base.scss" />
     <link rel="stylesheet" type="text/style" href="../styles/header.scss" />
@@ -19,15 +19,16 @@
           class="NASALogo"
         />
       </div>
-      <div class="">navigation</div>
     </header>
 
     <main>
+      <h1>NASA Picture of the Day!</h1>
       <section>
         <form class="" onsubmit="return Client.handleSubmit(event)">
           <input id="date" type="date" name="input" value="" />
           <input
             type="submit"
+            id="button"
             name=""
             value="submit"
             onclick="return Client.handleSubmit(event)"
@@ -36,7 +37,7 @@
         </form>
       </section>
       <section>
-        <strong>Picture of the Day:</strong>
+        <h2>Picture of the Day:</h2>
         <div id="results"></div>
       </section>
       <footer>

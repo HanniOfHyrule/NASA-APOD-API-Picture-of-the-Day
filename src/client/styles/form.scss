@@ -1,12 +1,23 @@
 form {
-    border: 1px solid #545454;
-    border-radius: 3px;
-    padding: 40px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #545454;
+  border-radius: 3px;
+  padding: 40px;
+  strong {
+    color: white;
+  }
 }
 
 input {
-    padding: 5px 20px;
-    width: 100%;
-    line-height: 16px;
-    margin: 10px 0;
+  line-height: 1.5;
+  margin: 1rem 0;
+  text-align: center;
+}
+#button {
+  width: 20%;
+  padding: 0.5rem;
+  border-radius: 55rem;
+  border-color: gray;
+  cursor: pointer;
 }

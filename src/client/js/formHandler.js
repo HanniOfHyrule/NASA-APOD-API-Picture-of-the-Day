@@ -13,7 +13,7 @@ function handleSubmit(event) {
     })
     .then(function (picture) {
       console.log(picture);
-      const title = document.createElement("p");
+      const title = document.createElement("h3");
       title.innerHTML = picture.title;
       const date = document.createElement("div");
       date.setAttribute("class", "pictureDate");
